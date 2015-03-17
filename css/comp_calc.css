@@ -1,0 +1,241 @@
+/* 
+	Updated Classes 
+*/
+
+/*Known Medical Expenses*/
+#cc_known_medical_expenses{
+  width: 100%;
+  background-color: rgb(50,50,50);
+  color: #fff;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1em;}
+
+/* Nav Buttons */
+legend,fieldset{text-align:center;}
+.cc_back{float:left;}
+.cc_next{float:right;}
+.cc_next:after{clear:both}
+
+/* Parent Category Buttons */
+
+/* Sub Category Buttons */
+#question_container legend:after{
+	font-family:FontAwesome;
+	content:" \f078";
+	margin-right:5px;
+	float:right;
+}
+#question_container legend{color:#fff;background-color:#444444;text-align:center;word-wrap:normal;padding-right:5px;}
+
+/* Injury Checkboxes */
+.cc_injury{
+	color: rgb(255, 255, 255); 
+	background-color: rgb(95, 95, 95);
+	vertical-align:middle;
+	font-size:12px;
+	padding:5px;
+}
+.cc_selected{
+	background-color:#DD7E77;
+}
+
+#estimation_cost_container{
+font-size:1.3em;
+/*border-top: 2px solid black;
+margin-top:50px;*/
+text-align:center;
+/*padding:20px;
+bottom:0px;
+left:0;
+padding:0;
+position:fixed;
+width:100%;
+z-index:999999;
+vertical-align:middle;
+margin:0px 0 0;
+}
+#sub_estimation_cost_container{
+margin:0 auto;*/
+}
+
+/*.cc_injury{background-color:#E22F23;color:#fff;}*/
+#question_container ul>fieldset>li, #question_container li{list-style:none;display:block;margin:5px 0px;}
+#question_container > ul{margin-left:0 !important;width:100%;}
+#question_container input[type="checkbox"],#question_container label{float:left;}
+#question_container input[type="checkbox"]{width:12px;}
+#question_container label{width:90%;padding-left:5px;}
+#question_container legend:before{
+	float:right;
+}
+.chk-container{float:left;padding-left:5px;min-width:200px;margin-bottom:10px;}
+
+
+.cc_injury2, #question_container legend{
+-webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-rtl-ordering: logical;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: linear;
+  -webkit-user-select: none;
+  -webkit-writing-mode: horizontal-tb;
+ 
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(255, 255, 255);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(255, 255, 255);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(255, 255, 255);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  opacity: 1;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  /*text-indent: 0px;
+  text-shadow: none;
+  text-transform: none;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: all;
+  transition-timing-function: linear;
+  word-spacing: 0px;
+  writing-mode: lr-tb;*/
+  width:100%;
+}
+.col_fifth input[type="button"], .col_third input[type="button"]{
+width:98%;
+padding-left: 1%;
+padding-right: 1%;
+}
+#btn_loss_of_earnings, #btn_degree_of_fault,#btn_severity, #btn_grand_total{
+float:right;
+}
+
+.third{
+float:left;
+width:33.3333%;
+}
+/*#gender_container{position:absolute;width:100%;}*/
+#cta_phone{float:right;}
+.tel:before{font-family:FontAwesome;content:"\f095"}
+#question_container legend{
+font-size: 12px;}
+.chk-container >ul>li, .cc_known_cost_selection{list-style:none !important}
+.cc_known_cost_selection{padding:5px;width:100%;}
+#known_costs ul{margin:0;}
+.cc_known_cost_selection_button{width:100% !important;}
+/*.chk-container li{display:inline-block;padding-right:2%;}*/
+/*.chk-container{display:inline-block;}*/
+#question_container{display:inline-block;width:100%;}
+.stacked{float:left;width:50%;}
+input[type="range"]{width:100%;}
+#fault_level_output :after{
+content: "%";
+}
+#estimation{
+border:1px solid grey;
+width:100%;
+}
+.inactive{
+display:none !important;
+}
+.inactive_header{
+opacity:0.2;
+}
+.active{
+display:block;
+}
+/*.cc_injury{
+-webkit-box-shadow: rgba(0, 0, 0, 0.0980392) 0px -3px 0px 0px inset;
+-webkit-font-smoothing: antialiased;
+-webkit-transition-delay: 0s;
+-webkit-transition-duration: 0.3s;
+-webkit-transition-property: opacity;
+-webkit-transition-timing-function: linear;
+background-color: rgb(39, 204, 192);
+border-bottom-color: rgb(255, 255, 255);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(255, 255, 255);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(255, 255, 255);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(255, 255, 255);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-top-style: none;
+border-top-width: 0px;
+box-shadow: rgba(0, 0, 0, 0.0980392) 0px -3px 0px 0px inset;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: auto;
+display: inline-block;
+font-family: OpenSansbold;
+font-size: 13px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: 2px;
+line-height: 20px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+opacity: 1;
+outline-color: rgb(255, 255, 255);
+outline-style: none;
+outline-width: 0px;
+padding-bottom: 15px;
+padding-left: 22px;
+padding-right: 22px;
+padding-top: 15px;
+position: relative;
+text-align: right;
+text-decoration: none;
+text-transform: uppercase;
+top: -3px;
+transition-delay: 0s;
+transition-duration: 0.3s;
+transition-property: opacity;
+transition-timing-function: linear;
+vertical-align: baseline;
+visibility: visible;
+}*/
+.col_third, .col_fifth, .col_fifth_last, .col_third_last{float:left;}
+.clear{clear:both;}
+.col_third, .col_third_last{width:33.33%;position:relative;}
+.col_fifth, .col_fifth_last{width:20%;}
